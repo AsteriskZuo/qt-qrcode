@@ -28,14 +28,16 @@
 #ifndef QTQRCODE_HPP
 #define QTQRCODE_HPP
 
+
 #include <QByteArray>
 #include <QSharedDataPointer>
 
+#include "export_api.h"
 #include "libqrencode/qrencode.h"
 
 class QtQrCodeData;
 
-class QtQrCode
+class QT_QRCODE_API QtQrCode
 {
 public:
     enum Proportion {

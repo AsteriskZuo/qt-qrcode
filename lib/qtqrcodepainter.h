@@ -33,8 +33,9 @@
 #include <QPainter>
 
 #include "qtqrcode.h"
+#include "export_api.h"
 
-class QtQrCodePainter
+class QT_QRCODE_API QtQrCodePainter
 {
 public:
     QtQrCodePainter(float margin = 0.0, const QBrush &background = Qt::white,
